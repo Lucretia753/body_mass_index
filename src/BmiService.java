@@ -1,7 +1,7 @@
 public class BmiService {
-    public double calculate(double a) {
+    public double calculate(double weight) {
 
-        double  bodyMassIndex = a / (1.85 * 1.85);
+        double  bodyMassIndex = weight / (1.85 * 1.85);
         return bodyMassIndex;
     }
 }
